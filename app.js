@@ -197,7 +197,7 @@ console.log(porsche);
 console.log("-------------------------------------");
 
 
-// 
+// CREATING A PERSON FACTORY AND A SUPERHERO
 class Person {
     constructor(name, age, eyeColor, hair,) {
         this.name=name;
@@ -212,13 +212,13 @@ class Person {
 };
 
 class SuperHero extends Person {
-    // constructor(name, age, eyes, hair) {
-    //     super(name, age, eyes, hair);
-    // };
 };
 
 const superman = new SuperHero("Clark Kent", 30, Person.eyeColor()[1], "black");
 console.log(superman);
+
+
+
 /*
 git init
 git add .
